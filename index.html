@@ -76,21 +76,30 @@
 <header class="mb-8 max-w-6xl mx-auto px-4 py-4">
   <h1 class="text-3xl font-bold text-blue-800 mb-4">⚾ 松川村少年野球愛好会 </h1>
 
-  <div class="flex space-x-4 mt-2">
-    </button>
-    <button id="notificationBtn" class="flex-1 bg-white hover:bg-gray-100 text-gray-800 px-4 py-2 rounded-lg border border-gray-300 flex items-center justify-center">
-      <i class="fas fa-bell mr-2"></i> 連絡事項
-      <span class="notification-badge ml-2">3</span>
+  <div class="flex flex-wrap space-x-4 mt-2">
+    <!-- お知らせボタン -->
+    <div class="relative flex-1">
+      <button id="notificationBtn" class="w-full bg-white hover:bg-gray-100 text-gray-800 px-4 py-2 rounded-lg border border-gray-300 flex items-center justify-center">
+        <i class="fas fa-bell mr-2"></i> 連絡事項
+      </button>
+      <!-- 通知バッジ -->
+      <span class="absolute top-0 right-2 bg-red-500 text-white text-xs font-bold w-5 h-5 rounded-full flex items-center justify-center shadow-md">
+        3
+      </span>
+    </div>
 
-    </button>
+    <!-- 予定追加ボタン -->
     <button id="addEventBtn" class="flex-1 bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded-lg flex items-center justify-center">
       <i class="fas fa-plus mr-2"></i> 予定追加
     </button>
+
+    <!-- メンバーボタン -->
     <button id="membersBtn" class="flex-1 bg-green-600 hover:bg-green-700 text-white px-4 py-2 rounded-lg flex items-center justify-center">
       <i class="fas fa-users mr-2"></i> メンバー
     </button>
   </div>
 </header>
+
 
         <div class="bg-white rounded-xl shadow-lg p-6 mb-8">
             <div class="flex justify-between items-center mb-6">
