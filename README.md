@@ -1,2 +1,1 @@
-# team-calendar
-This is a calendar for a team like baseball, basketball...
+
